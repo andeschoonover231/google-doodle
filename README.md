@@ -1,4 +1,4 @@
-# My Topic Google Doodle
+# Legend of Zelda: 35th Anniversary Google Doodle
 
 50+ words about your Google Doodle.
 
