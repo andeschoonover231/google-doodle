@@ -5,8 +5,6 @@ The Legend of Zelda will be turning 35 on February 21st, 2021. This series has b
 Throughout the last 35 years, there have been 19 games spanning 12 different consoles, the Legend of Zelda has been one of the most loved and celebrated video game series of all time.
 
 ## Collage
-
-[Sample to Figma Collage](https://www.figma.com/file/KIEiC0Tgx5IF1BhpTLZhn0/Google-Doodle?node-id=0%3A1)
 [My Figma Collage](https://www.figma.com/file/wvLqakOavjC95vUNei8QFq/Google-Doodle?node-id=1%3A2)
 
 ## Resources
