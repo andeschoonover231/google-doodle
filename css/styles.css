@@ -4,23 +4,126 @@
   * Change Background Color
   * Outline Elements
 */
-
+/*
 * {
   outline: 1px dotted black;
-}
+} */
 
 /* Doodle Stage */
 #stage {
-  background: sienna;
-  height: 400px;
-  width: 600px;
+  height: 900px;
+  width: 1050px;
+  transform: scale(0.75);
 
   position: relative;
 }
 
-#stage h1 {
+/* General Positioning */
+.background {
   position: absolute;
-  bottom: 0;
-  left: -200px;
-  overflow: hidden;
+  left: -170px;
+}
+
+/* Chest */
+.chest {
+  width: 583;
+  height: 393;
+  position: absolute;
+  top: 420px;
+  left: -145px;
+}
+
+.chestGlow {
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+
+.chest:hover .chestGlow {
+  animation: glowAnim 2s;
+}
+
+.chestItself {
+  width: 417;
+  height: 270;
+  position: absolute;
+  top: 110px;
+  left: 45px;
+  z-index: 8;
+}
+
+.chestClosed {
+  position: absolute;
+  top: 45px;
+  left: 130px;
+}
+
+.chest:hover .chestClosed {
+  transition: opacity 0.25s linear 1s;
+  opacity: 0;
+}
+
+.chestOpen {
+  position: absolute;
+  opacity: 0;
+}
+
+.chest:hover .chestOpen {
+  transition: opacity 0.25s linear 1s;
+  opacity: 1;
+}
+
+.rupeeChest {
+  position: absolute;
+  top: 75px;
+  left: 300px;
+  z-index: 9;
+  opacity: 0;
+}
+
+.chest:hover .rupeeChest {
+  animation: rupeeChestAnim 2s;
+  transition: opacity 0.001s linear 2s;
+  opacity: 1;
+}
+
+/* Keyframe Animation */
+
+/* Chest */
+
+@keyframes glowAnim {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rupeeChestAnim {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0px, -15px);
+  }
+  90% {
+    transform: scale(1.0625);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
