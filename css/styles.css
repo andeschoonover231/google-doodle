@@ -24,6 +24,20 @@
   left: -170px;
 }
 
+.link {
+  position: absolute;
+  left: 550px;
+  top: 400px;
+  z-index: 1000;
+}
+
+.googleText {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  z-index: 1001;
+}
+
 /* Chest */
 .chest {
   width: 583;
