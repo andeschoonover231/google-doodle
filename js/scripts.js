@@ -14,7 +14,7 @@ gsap
   });
 
 gsap
-  .timeline({ repeat: -1 })
+  .timeline({ repeat: 1 })
   .to("#rightForearm", {
     rotation: 25,
     svgOrigin: "303px 277px",
